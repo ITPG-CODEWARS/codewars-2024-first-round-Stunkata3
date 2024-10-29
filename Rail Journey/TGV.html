@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="png" href="https://cdn-icons-png.flaticon.com/128/713/713309.png">
+    <title>TGV</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .NavBar {
+        overflow: hidden;
+        position: fixed;
+        width: 100%;
+        font-family: Cairo;
+        margin: 0;
+        text-align: center;
+    }
+    .NavBar a {
+        display:inline-block;
+        background-color: inherit;
+        color: #1D1D1D;
+        text-shadow: 0 0 4px #CCCCCC;
+        text-align: center;
+        padding: 12px 60px;
+        text-decoration: none;
+        font-size: 26px;
+        font-weight: 700;
+    }
+    .NavBar a:hover {
+        background-color: #1D1D1D;
+        color: #FFFFFF;
+    }
+    .NavBar .icon {
+        display: none;
+    }
+    .dropdown {
+        display: inline-block;
+        align-items: center;
+    }
+    .dropdown .dropbtn {
+        display: inline-block;
+        font-size: 26px;
+        font-weight: 700;
+        border: none;
+        outline: none;
+        color: #1D1D1D;
+        text-shadow: 0 0 4px #CCCCCC;
+        padding: 12px 60px;
+        background-color: inherit;
+        font-family: Cairo;
+        margin-top: 10;
+    }
+    .dropdown-content {
+        display: none;
+        position: fixed;
+        background-color: inherit;
+        width: 188px;
+        z-index: 1;
+        margin-top: 10;
+    }
+    .dropdown-content a {
+        float: none;
+        color: #1D1D1D;
+        padding: 12px 0px;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+    }
+    .dropdown:hover .dropbtn {
+        background-color: #1D1D1D;
+        color: #FFFFFF;
+    }
+    .dropdown-content a:hover {
+        background-color: #1D1D1D;
+        color: #FFFFFF;
+    }
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    .Home-background{
+        background-color: #CCCCCC;
+        margin-top: 0;
+        padding-top: 50px;
+        height: 1200px;
+    }
+    .Home-background-inner-box{
+        background-color: #FFFFFF;
+        width: 1400px;
+        height: 800px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 150px;
+        padding-top: 80px;
+    }
+    .Home-image{
+        margin-left: auto;
+        margin-right: auto;
+        height: 700px;
+        width: 1100px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(https://media.cnn.com/api/v1/images/stellar/prod/220915092849-03-tgv-train-france.jpg?c=original);
+    }
+    .Giant-title{
+        font-size: 320px;
+        font-family: Cairo;
+        text-shadow: 20px 20px 20px #1D1D1D;
+        text-align: center;
+        line-height: 200px;
+        color: #1D1D1D;
+        background-color: #CCCCCC;
+        word-spacing: 20px;
+        font-weight: 900;
+        padding: 0;
+        margin: 0;
+    }
+    .Home-background-2{
+        background-color: #1D1D1D;
+        margin-top: 0;
+        padding-top: 100px;
+        height: 2300px;
+    }
+    .Train-box{
+        margin: 0;
+        background-color: #9c9c9c;
+    }
+    .Info{
+        color: #CCCCCC;
+        background-color: #1D1D1D; 
+        padding-left: 40px;
+        padding-right: 40px;
+        text-align: center;
+        font-family: Cairo;
+        font-size: 30px;
+        font-weight: 600;
+        padding: 20px;
+    }
+    .Specifications{
+        color: #FFFFFF;
+        background-color: #1D1D1D; 
+        text-align: center;
+        font-family: Cairo;
+        font-size: 30px;
+        font-weight: 600;
+        padding: 100px;
+        line-height: 50px;
+    }
+    .Left-box{
+        float: left;
+        width: 700px;
+        margin-right: 100%;
+    }
+    .Right-box{
+        float: right;
+        width: 700px;
+        margin-left: 100%;
+    }
+    .Bottom-box{
+        background-color: #FFFFFF;
+        margin-top: 0;
+        height: 200px;
+        color: #1D1D1D;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="NavBar" id="MyNavBar">
+                <a href="About us.html">About us</a> 
+            <div class="dropdown">
+                <button class="dropbtn">Trains
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="Maglev train.html">Maglev train</a>
+                    <a href="Freight train.html">Freight train</a>
+                    <a href="Diesel locomotive.html" style="line-height: 24px;">Diesel locomotive</a>
+                    <a href="TGV.html">TGV</a>
+                    <a href="Bullet train.html">Bullet train</a>
+                    <a href="Eurostar.html">Eurostar</a>
+                    <a href="ICE.html">ICE</a>
+                    <a href="Pendolino.html">Pendolino</a>
+                </div>
+            </div>
+            <a href="Home page.html">Home</a>
+            <a href="Contact.html">Contact</a>
+            <a href="Help.html">Help</a>
+          </div>
+        <div class="Home-background">
+            <div class="Home-background-inner-box">
+                <div class="Home-image">
+                </div>
+            </div>
+        </div>
+        <div class="Giant-title">
+            <p style="margin: 0;padding: 0;"><i>TGV</i></p>
+        </div>
+        <div class="Home-background-2">
+            <div class="Info">
+                <p>The TGV is France’s pride and joy, representing the gold standard of high-speed rail travel. Since its debut in the 1980s, the TGV has consistently set records for speed, with some models reaching up to 320 km/h. What makes the TGV remarkable is not just its speed, but the way it has revolutionized travel across Europe, connecting cities faster and more efficiently than ever before. Passengers on the TGV enjoy a smooth and quiet ride, with state-of-the-art amenities that make long-distance travel a pleasure. The TGV’s aerodynamic design is a marvel of engineering, allowing it to cut through the air with minimal resistance. It’s powered by electricity, making it one of the more environmentally friendly high-speed trains in operation today. Over the decades, the TGV has inspired the development of similar high-speed rail systems in other countries. Whether traveling for business or leisure, passengers can rely on the TGV for punctuality, comfort, and a touch of luxury. As the high-speed rail network expands, the TGV remains a symbol of technological excellence and a model for future rail innovations. From Paris to the south of France and beyond, the TGV connects people and places with speed and style.</p>
+            </div>
+            <div class="Train-box">
+                
+                <div class="Specifications"> 
+                    <p style="font-weight: 800;font-size: 50px;">Specifications</p>
+                    <div class="Right-box">
+                        <p style="font-size: 40px;"><strong>Type:</strong></p>
+                        <p>High-Speed Electric Train</p>
+                    </div> 
+                    <div class="Left-box">
+                        <p style="font-size: 40px;"><strong>Power:</strong></p>
+                        <p>8,800 kW</p>
+                    </div> 
+                    <div class="Right-box">
+                        <p style="font-size: 40px;"><strong>Top speed:</strong></p>
+                        <p>320 km/h (199 mph)</p>
+                    </div> 
+                    <div class="Left-box">
+                        <p style="font-size: 40px;"><strong>Capacity:</strong></p>
+                        <p>Up to 545 passengers</p>
+                    </div> 
+                    <div class="Right-box">
+                        <p style="font-size: 40px;"><strong>Operators:</strong></p>
+                        <p>France (SNCF)</p>
+                    </div> 
+                    <div class="Left-box">
+                        <p style="font-size: 40px;"><strong>Special features:</strong></p>
+                        <p>One of the fastest conventional trains in the world. Operates primarily in France but also connects to neighboring countries via the high-speed network.</p> 
+                    </div>       
+                </div>
+            </div>
+        </div>
+        <div class="Bottom-box">
+            <a style="font-size: 54px; font-family: Cairo; padding-left: 100px; font-weight: 700; display: inline; text-decoration: none; color: #1D1D1D;" href="Home page.html"><i>Rail Journey</i></a>
+            <div style="margin: 0; display: inline; position: absolute; padding-top: 50px;padding-left: 200px; font-family: Cairo; line-height: 15px;">
+                <a style="font-size: 24px; font-weight: 800; text-decoration: none; color: #1D1D1D;" href="Contact.html">Contact:</a>
+                <p style="font-size: 20px; font-weight: 600;">Number: +1 (555) 123-4567</p>
+                <p style="font-size: 20px; font-weight: 600;">Email: rail-journey@gmail.com</p>
+                <p style="font-size: 20px; font-weight: 600;">Adress: 123 Train Avenue Railtown, NY 10001</p>
+            </div>
+            <div style="margin: 0; display: inline; position: absolute; padding-top: 30px;padding-left: 800px; font-family: Cairo;">
+                <a style="font-size: 24px; font-weight: 800; color: #1D1D1D; text-decoration: none;" href="Contact.html">Social media:</a><br>
+                <a style="font-size: 20px; font-weight: 600; color: #1D1D1D; text-decoration: none;" href="https://www.facebook.com/">facebook.com/Rail-Journey</a><br>
+                <a style="font-size: 20px; font-weight: 600; color: #1D1D1D; text-decoration: none;" href="https://www.instagram.com/">instagram.com/Rail-Journey</a><br>
+                <a style="font-size: 20px; font-weight: 600; color: #1D1D1D; text-decoration: none;" href="https://x.com/">twitter.com/Rail-Journey</a>
+            </div>
+        </div>
+      </header>
+</body>
+</html>
