@@ -1,7 +1,6 @@
 
 ![Logo](https://cdn-icons-png.flaticon.com/128/713/713309.png)
 
-
 # Rail Journey
 
 Rail Journey is a website designed for train enthusiasts and newcomers alike, providing comprehensive information on iconic trains from around the world. The site celebrates the power, beauty, and history of trains, offering engaging content, images, and a community for all who share a passion for rail travel.
